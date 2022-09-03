@@ -55,7 +55,9 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
+                                    SAIL_XDEBUG_MODE: {{ env('SAIL_XDEBUG_MODE', '<not-set>') }}<br>
+                                    SAIL_XDEBUG_CONFIG: {{ env('SAIL_XDEBUG_CONFIG', '<not-set>') }}<br>
+                                    XDEBUG_CONFIG: {{ env('XDEBUG_CONFIG', '<not-set>') }}
                                 </div>
                             </div>
                         </div>
